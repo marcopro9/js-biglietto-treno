@@ -4,7 +4,7 @@ var passengerAge = parseInt( prompt("quanti anni hai?"));
 var regularPrice = (totalKm * 0.21);
 var juniorPrice = regularPrice - ((regularPrice * 20) /100);
 var seniorPrice = regularPrice - ((regularPrice * 40) /100);
-var ticketPrice = regularPrice
+var ticketPrice = regularPrice;
 
 // conditions
 if ( passengerAge > 64 ){
